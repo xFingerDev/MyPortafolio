@@ -5,6 +5,7 @@ export interface ProjectLink {
 
 export interface Project {
   title: string;
+  hidde?: boolean;
   status: "Abandoned" | "On Hold" | "Completed" | "In Progress";
   description: string;
   image: string;

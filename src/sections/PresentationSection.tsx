@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiDocumentArrowDown } from "react-icons/hi2";
 import { MdEmail } from "react-icons/md";
+import { TbSourceCode } from "react-icons/tb";
 import { PersonalInfo } from "../data/personalInfo";
 
 const links = [
@@ -8,6 +9,11 @@ const links = [
   { href: PersonalInfo.github, icon: FaGithub, external: true },
   { href: `mailto:${PersonalInfo.email}`, icon: MdEmail },
   { href: "/cv.pdf", icon: HiDocumentArrowDown, download: true },
+  {
+    href: PersonalInfo.githubPortafolio,
+    icon: TbSourceCode,
+    external: true,
+  },
 ];
 
 const PresentationSectionReferences: React.FC = () => {

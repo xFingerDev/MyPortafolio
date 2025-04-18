@@ -8,9 +8,11 @@ const PersonalProjectSection: React.FC = () => {
         Proyectos Personales
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {personalProjects.map((project) => (
-          <ProjectCard project={project} />
-        ))}
+        {personalProjects
+          .filter(({ hidde }) => !hidde)
+          .map((project) => (
+            <ProjectCard project={project} />
+          ))}
       </div>
     </section>
   );

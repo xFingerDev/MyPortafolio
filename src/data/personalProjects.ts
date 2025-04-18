@@ -17,6 +17,7 @@ export const personalProjects: Project[] = [
         url: "https://github.com/xFingerDev/MyPortafolio",
       },
     ],
+    hidde: true,
   },
   {
     title: "AdVerse DashBoard",
