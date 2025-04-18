@@ -3,7 +3,7 @@ import { ProjectLinkButton } from "./ProjectLinkButton";
 import { TechBadge } from "./TechBadge";
 
 const DecorativeDivider: React.FC = () => (
-  <div className="hidden md:block w-px bg-gradient-to-b from-transparent via-[#F3E8FF]/50 to-transparent h-full mx-4" />
+  <div className="hidden md:block w-px bg-gradient-to-b from-transparent via-[#F3E8FF]/50 to-transparent h-full" />
 );
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
