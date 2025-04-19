@@ -11,4 +11,5 @@ export interface Project {
   image: string;
   technologies: string[];
   links: ProjectLink[];
+  type: ("frontend" | "backend")[];
 }
