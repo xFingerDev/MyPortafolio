@@ -18,7 +18,12 @@ const links = [
     toast: "GitHub",
   },
   { href: `mailto:${PersonalInfo.email}`, icon: MdEmail, toast: "Email" },
-  { href: "/cv.pdf", icon: HiDocumentArrowDown, download: true, toast: "CV" },
+  {
+    href: "/cv.pdf",
+    icon: HiDocumentArrowDown,
+    download: true,
+    toast: "Curriculum Vitae",
+  },
   {
     href: PersonalInfo.githubPortafolio,
     icon: TbSourceCode,
