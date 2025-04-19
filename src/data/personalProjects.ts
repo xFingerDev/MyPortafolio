@@ -231,4 +231,19 @@ export const personalProjects: Project[] = [
       },
     ],
   },
+  {
+    title: "Project Koppai",
+    type: ["frontend"],
+    status: "Completed",
+    description:
+      "Es un programa seguro y eficiente para gestionar, organizar y descargar ROMs en servidores privados. Ofrece búsqueda avanzada, descargas masivas y opciones de personalización para un control total sobre tu colección.",
+    image: "/project/koppai.png",
+    technologies: ["Visual Basic", ".net"],
+    links: [
+      {
+        type: "github",
+        url: "https://github.com/xFingerDev/MultiStore-PC-Edition",
+      },
+    ],
+  },
 ];
