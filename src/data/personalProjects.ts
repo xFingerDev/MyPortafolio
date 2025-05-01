@@ -71,6 +71,10 @@ export const personalProjects: Project[] = [
         type: "gplay",
         url: "https://play.google.com/store/apps/details?id=com.communitybakery.meronpan",
       },
+      {
+        type: "appstore",
+        url: "https://apps.apple.com/app/id6745256779",
+      },
     ],
   },
   {

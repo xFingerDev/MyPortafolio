@@ -1,23 +1,27 @@
 import { ProjectLink } from "@/entities/Project";
-import { FaGithub, FaGlobe, FaGooglePlay } from "react-icons/fa";
+import { FaAppStore, FaGithub, FaGlobe, FaGooglePlay } from "react-icons/fa";
 
 const IconWithType = {
   github: <FaGithub className="inline mr-2" />,
   gplay: <FaGooglePlay className="inline mr-2" />,
   web: <FaGlobe className="inline mr-2" />,
+  appstore: <FaAppStore className="inline mr-2" />,
 };
 
 const TextWithType = {
   github: "Ver Código",
-  gplay: "Ver en Play Store",
-  web: "Ver Web",
+  gplay: "Play Store",
+  web: "Sitio Oficial",
+  appstore: "App Store",
 };
 
 const CssWithType = {
   github: "bg-gray-700 hover:bg-gray-800 border border-gray-600",
   gplay:
-    "bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800",
-  web: "bg-green-600 hover:bg-green-700",
+    "bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800",
+  web: "bg-purple-600 hover:bg-purple-700",
+  appstore:
+    "bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700",
 };
 
 const ProjectLinkButton: React.FC<{ link: ProjectLink }> = ({ link }) => {
