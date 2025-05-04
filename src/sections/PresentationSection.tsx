@@ -21,7 +21,8 @@ const links = [
   {
     href: "/cv.pdf",
     icon: HiDocumentArrowDown,
-    download: true,
+    download: false,
+    external: true,
     toast: "Curriculum Vitae",
   },
   {
