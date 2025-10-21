@@ -21,6 +21,7 @@ export const personalProjects: Project[] = [
     hidde: true,
   },
   {
+    hidde: true,
     title: "AdVerse DashBoard",
     type: ["frontend"],
 

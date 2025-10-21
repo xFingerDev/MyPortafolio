@@ -2,6 +2,33 @@ import { Work } from "@/entities/Work";
 
 export const workExperience: Work[] = [
   {
+    company: "MARCIL SA",
+    role: "Desarrollador Multiplataforma",
+    period: "2025 Mayo - Actualidad",
+    url: "https://cestas-marti.com",
+    description: `Desarrollo de soluciones internas para optimizar los procesos del personal y las operaciones de la empresa.
+Participación activa en la automatización de tareas administrativas, gestión de almacén y comunicación interna.
+Implementación de aplicaciones de escritorio en C#, herramientas internas y mantenimiento de servidores.`,
+    projects: [
+      "Aplicación en C# para la gestión de localización de géneros en el almacén",
+      "Aplicación en C# para la trazabilidad completa del almacén, permitiendo registrar el flujo de productos desde la entrada hasta la salida, con seguimiento por lotes",
+      "Implementación de una aplicación para la gestión de mailing masivo, con personalización de plantillas dinámicas y variables personalizadas por usuario",
+      "Mantenimiento y mejora de una aplicación de recogidas de lotes, optimizando el flujo de trabajo.",
+      "Desarrollo de una aplicación móvil en Flutter para la gestión de stock de modelos en almacén, permitiendo a los empleados actualizar inventarios en tiempo real mediante dispositivos móviles",
+    ],
+    technologies: [
+      "C#",
+      "VisualBasic",
+      "SQL Server",
+      ".NET",
+      ".NET MAUI",
+      ".NET WPF",
+      "ASP.NET Core",
+      "Visual Basic for Applications",
+      "AWS SES",
+    ],
+  },
+  {
     company: "Goil",
     role: "Desarrollador Backend",
     period: "2023 Abril - 2025 Abril",
